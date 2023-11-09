@@ -1,0 +1,7 @@
+h4{
+    font-weight: 700;
+}
+.nav{
+    display: flex;
+    gap: 2vw;
+}

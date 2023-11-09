@@ -1,0 +1,13 @@
+.news{
+    background-repeat: no-repeat;
+    position: relative;
+    background-size: cover;
+    padding: 10px 10px;
+    border-radius: 10px;
+    height: 90vh;
+    align-items: flex-end;
+    display: flex;
+}
+.news h5{
+    font-weight: 600;
+}

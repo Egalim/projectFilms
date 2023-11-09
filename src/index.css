@@ -1,0 +1,94 @@
+@charset "UTF-8";
+
+*:where(:not(html, iframe, canvas, img, svg, video, audio, select, input):not(svg *, symbol *)) {
+  all: unset;
+  display: revert;
+}
+
+a:hover {
+  cursor: pointer;
+}
+
+/* Remove list styles (bullets/numbers) */
+ol,
+ul,
+menu {
+  list-style: none;
+}
+
+/* For images to not be able to exceed their container */
+img {
+  max-inline-size: 100%;
+  max-block-size: 100%;
+}
+
+/* removes spacing between cells in tables */
+table {
+  border-collapse: collapse;
+}
+
+*,
+*::before,
+*::after {
+  padding: 0;
+  margin: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+
+
+ul,
+ol,
+li {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: Qanelas, sans-serif;
+  display: flex;
+  min-width: 320px;
+  min-height: 100vh;
+  background-color: #1E2538;
+  color: #fff;
+  overflow-x: hidden;
+}
+
+h1 {
+  font-size: 55px;
+}
+
+h2 {
+  font-size: 45px;
+}
+
+h3 {
+  font-size: 30px;
+}
+
+h4 {
+  font-size: 18px;
+}
+
+h5 {
+  font-size: 14px;
+}
+.txt_black{
+  color: #151A26;
+}
+.txt_yellow{
+  color: #F2F60F;
+}
+.txt_grey{
+ color: rgba(223, 223, 223, 0.834);
+}
+
+.txt_bold{
+  font-weight: 700;
+}
+.border{
+  border-radius: 10px;
+  text-align: center;
+  padding: 10px;
+}

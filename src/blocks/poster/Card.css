@@ -1,0 +1,25 @@
+.card{
+    overflow: hidden;
+    position: relative;
+    gap: 1vh;
+    display: flex;
+    flex-direction: column;
+}
+.card img{
+    border-radius: 10px;
+
+}
+.rating{
+    position: absolute;
+    top: 14px;
+    right: 14px;
+    padding: 5px 12px;
+    color: white;
+    background-color: #89CB36;
+    border: none;
+    border-radius: 5px;
+}
+
+.card h5{
+    color: #F2F60F;
+}

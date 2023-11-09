@@ -1,0 +1,33 @@
+.container_new{
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+    grid-gap: 20px;
+}
+
+.main_new{
+    height: 90vh;
+    max-height: 780px;
+    border-radius: 10px;
+    position: relative;
+    object-fit: cover;
+    padding: 50px 30px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+.row_main_new{
+    display: flex;
+    flex-direction: column;
+    gap: 1vh;
+    position: absolute;
+    bottom: 30px;
+}
+
+.other_new{
+    height: 90vh;
+    max-height: 780px;
+    display: flex;
+    flex-direction: column;
+    gap: 1vh;
+}

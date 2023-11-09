@@ -1,0 +1,33 @@
+.cutCarouselFlip {
+    width: 100%;
+    overflow: hidden;
+}
+
+.counterFlip {
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.counterFlip button {
+    border: none;
+    background-color: transparent;
+}
+
+.counterFlip p {
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+    margin: 0 20px;
+}
+
+.carouselFlip {
+    display: flex;
+    gap: 2%;
+    width: 100%;
+    transition: all 0.5s ease-in-out;
+}
+.cutCarouselFlip {
+    width: 100%;
+    overflow: hidden;
+}

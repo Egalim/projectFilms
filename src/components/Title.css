@@ -1,0 +1,29 @@
+.title_line{
+    display: flex;
+    justify-content: space-between;
+    margin: 50px 0px 40px 0px;
+    align-items: center;
+}
+
+.title_line h1{
+    font-weight: 900;
+}
+
+.line{
+    height: 1px;
+    width: 3vw;
+    background-color: #fff;
+}
+.category_title{
+    color: rgba(255, 255, 255, 0.60);
+    display: flex;
+    gap: 1vw;
+    max-width: 40%;
+    flex-wrap: wrap;
+}
+
+.detail{
+    display: flex;
+    align-items: center;
+    gap: 2vw;
+}

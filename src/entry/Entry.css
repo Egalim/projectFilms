@@ -1,0 +1,150 @@
+body {
+    background-color: #191E2E;
+}
+
+h2 {
+    font-weight: 700;
+    margin-bottom: 5vh;
+}
+
+.container_entry {
+    justify-content: center;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+    gap: 3vh;
+    width: 40vw;
+    min-width: 350px;
+    max-width: 500px;
+}
+
+input {
+    background-color: #1E2538;
+    padding: 20px 200px 20px 30px;
+    border-radius: 10px;
+    width: 100%;
+}
+
+input::placeholder {
+    color: rgba(255, 255, 255, 0.60);
+}
+
+input {
+    color: #fff;
+
+}
+
+.btn_entry {
+    width: 100%;
+    text-align: center;
+    font-weight: 600;
+    background-color: #F2F60F;
+    border-radius: 10px;
+    min-height: 50px;
+}
+
+.btn_entry:hover {
+    background-color: #a5a809;
+}
+
+.btn_entry_grey {
+    background-color: #1E2538;
+    color: #fff;
+}
+
+.btn_entry_grey:hover {
+    background-color: #151a28;
+}
+
+
+.form_entry {
+    display: flex;
+    flex-direction: column;
+    gap: 1vh;
+    width: 90%;
+}
+
+.link_entry {
+    color: #3657CB;
+    font-weight: 400;
+    line-height: 166.5%;
+    text-decoration-line: underline;
+}
+
+.link_entry:hover {
+    color: #0e1c51;
+}
+
+.logo_net_cont {
+    display: flex;
+    gap: 15px;
+}
+
+.logo_net {
+    padding: 10px;
+    background-color: #1E2538;
+    border-radius: 10px;
+}
+
+.logo_net:hover {
+    background-color: #3657CB;
+}
+
+.row_form {
+    display: flex;
+    gap: 1vw;
+    min-width: 450px;
+}
+
+.btn_entry_sent {
+    background-color: #3657CB;
+}
+
+.check_agree {
+    gap: 1vh;
+    display: flex;
+    flex-direction: column;
+    margin: 2vh 0vh;
+}
+
+.checkbox {
+    position: absolute;
+    z-index: -1;
+    opacity: 0;
+}
+
+.link_reg{
+    color:#F2F60F ;
+    cursor: pointer;
+    line-height: 140.2%;
+text-decoration-line: underline;
+}
+.checkbox+label {
+    display: inline-flex;
+    align-items: center;
+    user-select: none;
+
+}
+
+.checkbox+label::before {
+    content: '';
+    display: inline-block;
+    width: 1rem;
+    height: 1rem;
+    border: 1px solid #adb5bd;
+    border-radius: 0.15em;
+    margin-right: 0.5em;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 50% 50%;
+}
+
+.checkbox:checked+label::before {
+    border-color: #F2F60F;
+    background-color: #F2F60F;
+    background-image: url('../assets/gal.svg');
+}

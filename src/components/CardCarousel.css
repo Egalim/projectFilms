@@ -1,0 +1,41 @@
+.card {
+    position: relative;
+    display: block;
+    overflow: hidden;
+}
+
+.cardImg img {
+    display: block;
+    width: 100%;
+    height: 85%;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.rating {
+    position: absolute;
+    top: 14px;
+    right: 14px;
+    padding: 5px 12px;
+    color: white;
+    background-color: #89CB36;
+    border: none;
+    border-radius: 5px;
+}
+
+.about {
+    display: flex;
+    flex-direction: column;
+    gap: 1vh;
+}
+
+.filmCategories {
+    color: #F2F60F;
+}
+
+.cardCarousel {
+    position: relative;
+    display: block;
+    overflow: hidden; 
+    min-width: 23.5%;
+}

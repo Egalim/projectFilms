@@ -1,0 +1,14 @@
+.container_card{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 2vw;
+    margin: 5vh 0;
+}
+
+.btn_poster{
+    padding: 20px 45px;
+    border-radius: 10px;
+    border: 2px solid #FFF;
+    text-align: center;
+    margin-top: 1vh;
+}

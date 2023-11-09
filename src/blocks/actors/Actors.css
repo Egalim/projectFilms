@@ -1,0 +1,31 @@
+.container_actor{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 2vw;
+}   
+.list_actor{
+    border-radius: 10px;
+    background-color: #1B2133;
+    padding: 15px 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.th4{
+    font-weight: 400;
+}
+
+.txt_bold{
+    font-weight: 700;
+}
+
+.row_list_actor{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.rows_list_actor{
+    gap: 1vh;
+    display: flex;
+    flex-direction: column;
+}

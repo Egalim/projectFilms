@@ -1,0 +1,8 @@
+.container {
+    padding: 0 7vw;
+    width: 100vw;
+}
+.first_block{
+    background: url(./assets/Back1.png) no-repeat;
+    width: 100vw;
+}
