@@ -1,20 +1,25 @@
 import Logo from '../../components/logo'
+import './FormSub.css'
 
 export default function FormSub() {
     return (
-        <div className="container newsletter" id="8">
-            <img src={Logo} alt="" className="NLlogo" />
+        <div className="container_form_sub">
+            <Logo />
             <h1>Подпишитесь на E-mail рассылку</h1>
-            <p>Если хотиет быть в курсе последних новостей и новинок кино -<br />
-                заполните форму ниже и оформите бесплатную E-mail рассылку!</p>
-            <div className="formForEmail">
-                <input type="text" placeholder="Введите свой E-mail адрес" />
+            <h4>Если хотиет быть в курсе последних новостей и новинок кино -<br />
+                заполните форму ниже и оформите бесплатную E-mail рассылку!</h4>
+
+            <div className="form_sub">
+                <input type="text" placeholder="Введите свой E-mail адрес" className='in_for_sub'/>
                 <button className="subscribe">Подписаться</button>
             </div>
+
             <div>
-                <input type="checkbox" id="checkbox" className="checkboxPolit" />
-                <label htmlFor="checkbox" className="labelPolit"><pre>Соглашаюсь на условия </pre>
-                    <a href="" className="linkPolit">политики конфиденциальности</a></label>
+                <input id='checkbox1' type="checkbox" className='checkbox txt_black' />
+                <label htmlFor='checkbox1'>
+                    <pre>Соглашаюсь на условия &nbsp;</pre>
+                    <a className='link_reg'> политики конфиденциальности</a>
+                </label>
             </div>
         </div>
     )

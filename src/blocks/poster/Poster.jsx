@@ -4,10 +4,12 @@ import Title from '../../components/Title'
 import Category from '../../components/Category'
 import { useState, useEffect } from "react";
 import Card from './Card';
+import { useNavigate } from "react-router-dom";
 export default function Poster() {
   const [array, setArray] = useState([]);
   const [arrCategory, setArrCategory] = useState([])
   const [indexCategory, setIndexCategory] = useState()
+  const navigate = useNavigate();
 
   useEffect(() => {
     fetch('http://192.168.144.66:8081/api/movies')
@@ -41,7 +43,12 @@ export default function Poster() {
       <div className='container_card'>
         {array.map((e) => {
           return (
+            <div onClick={
+              () => {
+                  navigate(`/${e.id}`)
+              }} key={e.id}>
             <Card key={e.id} name={e.localName} img={e.urlIcon} categories={e.genres} rating={e.averageRating} />
+          </div>
           )
         })}
       </div>

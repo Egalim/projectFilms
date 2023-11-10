@@ -1,0 +1,22 @@
+.info {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 47px;
+    margin-top: 5vh;
+}
+
+.titleInfo {
+    color: rgba(255, 255, 255, 0.90);
+    font-size: 18px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.detailedInfo {
+    color: #F2F60F;
+    font-size: 18px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}

@@ -10,6 +10,7 @@ import Entry from "./entry/Entry.jsx";
 import Recoverpass from "./entry/Recoverpass.jsx";
 import CreateNewPass from "./entry/CreateNewPass.jsx";
 import Registrate from "./entry/Registrate.jsx";
+import PageFilm from "./pageFilm/PageFilm.jsx";
 
 const router = createBrowserRouter([
   {
@@ -31,7 +32,11 @@ const router = createBrowserRouter([
   {
     path: '/registrate',
     element: <Registrate />
-  }
+  },
+  {
+    path: '/:movieId',
+    element: <PageFilm/> 
+}
 ]);
 
 ReactDOM.createRoot(document.getElementById("root")).render(

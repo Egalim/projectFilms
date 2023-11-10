@@ -9,7 +9,7 @@ import News from "./blocks/news/News";
 import Actors from "./blocks/actors/Actors";
 import Updates from "./blocks/updates/updates";
 import FormSub from "./blocks/formSub/FormSub";
-
+import Footer from "./blocks/footer/Footer";
 
 function App() {
 
@@ -103,6 +103,8 @@ function App() {
         <Updates />
         <News arr={array}/>
         <FormSub />
+        <Footer />
+
       </div>
     </>
   )

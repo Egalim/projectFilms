@@ -9,8 +9,8 @@ export default function CardCarousel({name, img, categories, rating}) {
                 <img src={img} alt="" />
             </div>
             <div className="about">
-                <h3>{name}</h3>
-                <h4 className='filmCategories'>{categories.join(', ')}</h4>
+                <h4>{name}</h4>
+                <h5 className='filmCategories'>{categories.join(', ')}</h5>
             </div>
         </div>
     )
